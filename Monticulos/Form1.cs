@@ -1,4 +1,4 @@
-﻿using System;
+﻿xusing System;btijtibtjf
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -205,6 +205,16 @@ namespace Monticulos
                 if (Arreglo[(2 * j) + 1] != null)
                     g.DrawLine(lapiz, Arreglo[j].Location.X + 40, Arreglo[j].Location.Y + 20, Arreglo[(2 * j)+1].Location.X + 20, Arreglo[(2 * j)+1].Location.Y);
             }
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void groupBox1_Enter(object sender, EventArgs e)
+        {
+
         }
 
         public void Heap_Num()
